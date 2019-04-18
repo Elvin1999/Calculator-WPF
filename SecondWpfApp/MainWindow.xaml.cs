@@ -24,5 +24,17 @@ namespace SecondWpfApp
         {
             InitializeComponent();
         }
+
+        private void Button_MouseMove(object sender, MouseEventArgs e)
+        {
+            var btn = sender as Button;
+            btn.Background = Brushes.Red;
+        }
+
+        private void Button_MouseLeave(object sender, MouseEventArgs e)
+        {
+            var btn = sender as Button;
+            btn.Background = Brushes.Yellow;
+        }
     }
 }

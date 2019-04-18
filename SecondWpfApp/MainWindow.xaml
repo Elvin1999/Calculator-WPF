@@ -9,11 +9,8 @@
     <Grid>
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
-
                 <GradientStop Color="#12c2e9" Offset="0" />
-
                 <GradientStop Color="#c471ed" Offset="0.3" />
-
                 <GradientStop Color="#f64f59" Offset="1" />
 
             </LinearGradientBrush>
@@ -32,30 +29,327 @@
             <UniformGrid>
                 <UniformGrid.Rows>6</UniformGrid.Rows>
                 <UniformGrid.Columns>4</UniformGrid.Columns>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
-                <Button></Button>
+                <Button>
+                    <Button.Content>
+                        1
+                    </Button.Content>
+                    <Button.FontSize>35</Button.FontSize>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+
+                    <Button MouseMove="Button_MouseMove" MouseLeave="Button_MouseLeave">
+                    
+                        <Button.Content>
+                        2
+                    </Button.Content>
+                    <Button.FontSize>35</Button.FontSize>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                            <GradientStop Color="#12c2e9" Offset="0" />
+
+                            <GradientStop Color="#c471ed" Offset="0.3" />
+
+                            <GradientStop Color="#f64f59" Offset="1" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
             </UniformGrid>
             
         </Grid>
