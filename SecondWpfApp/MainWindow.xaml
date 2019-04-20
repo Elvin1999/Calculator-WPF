@@ -5,9 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SecondWpfApp"
         mc:Ignorable="d"
-        Title="Calculator" Height="500" Width="700">
+        Title="Calculator" Height="500" Width="700" MinWidth="700" MaxHeight="500" MaxWidth="700">
     <Grid>
-
         <Grid.Background>
             <SolidColorBrush
    >
@@ -31,7 +30,7 @@
         </Grid.ColumnDefinitions>
         
         <Grid Grid.Row="0" Grid.Column="0">
-            <Label Margin="0,5,200,110">
+            <Label Margin="0,5,200,110" VerticalAlignment="Stretch">
                 <Label.Width>200</Label.Width>
                 <Label.Height>40</Label.Height>
                 <Label.Content>Standart</Label.Content>
@@ -49,10 +48,11 @@
                 <Label.FontSize>35</Label.FontSize>
                 
             </Label>
-            <WrapPanel Margin="0,140,10,0">
+            <UniformGrid Margin="0,140,0,0">
+                <UniformGrid.Rows>1</UniformGrid.Rows>
+                <UniformGrid.Columns>5</UniformGrid.Columns>
+                <UniformGrid.MaxHeight>30</UniformGrid.MaxHeight>
                 <Button>
-                    <Button.Width>82</Button.Width>
-                    <Button.Height>30</Button.Height>
                     <Button.Content>
                         MC
                     </Button.Content>
@@ -83,8 +83,7 @@
                             </SolidColorBrush.Color>
                         </SolidColorBrush>
                     </Button.Background>
-                    <Button.Width>82</Button.Width>
-                    <Button.Height>30</Button.Height>
+              
                     <Button.Content>
                         MR
                     </Button.Content>
@@ -103,8 +102,7 @@
                             </SolidColorBrush.Color>
                         </SolidColorBrush>
                     </Button.Background>
-                    <Button.Width>81</Button.Width>
-                    <Button.Height>30</Button.Height>
+   
                     <Button.Content>
                         M+
                     </Button.Content>
@@ -123,8 +121,7 @@
                             </SolidColorBrush.Color>
                         </SolidColorBrush>
                     </Button.Background>
-                    <Button.Width>80</Button.Width>
-                    <Button.Height>30</Button.Height>
+             
                     <Button.Content>
                         M-
                     </Button.Content>
@@ -143,14 +140,13 @@
                             </SolidColorBrush.Color>
                         </SolidColorBrush>
                     </Button.Background>
-                    <Button.Width>75</Button.Width>
-                    <Button.Height>30</Button.Height>
+             
                     <Button.Content>
                         MS
                     </Button.Content>
                     <Button.BorderThickness>0</Button.BorderThickness>
                 </Button>
-            </WrapPanel>
+            </UniformGrid>
         </Grid>
         <Grid Grid.Row="1" Grid.Column="0">
             <UniformGrid>
