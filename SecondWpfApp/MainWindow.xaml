@@ -44,7 +44,8 @@
                 <Label.Content>
                     0.
                 </Label.Content>
-                
+                <Label.BorderBrush>Black</Label.BorderBrush>
+                <Label.BorderThickness>1</Label.BorderThickness>
                 <Label.FontSize>35</Label.FontSize>
                 
             </Label>
@@ -55,7 +56,7 @@
                     <Button.Content>
                         MC
                     </Button.Content>
-
+                    <Button.BorderThickness>0</Button.BorderThickness>
                     <Button.Background>
                         <SolidColorBrush
    >
@@ -87,6 +88,7 @@
                     <Button.Content>
                         MR
                     </Button.Content>
+                    <Button.BorderThickness>0</Button.BorderThickness>
                 </Button>
                 <Button>
                     <Button.Background>
@@ -106,6 +108,7 @@
                     <Button.Content>
                         M+
                     </Button.Content>
+                    <Button.BorderThickness>0</Button.BorderThickness>
                 </Button>
                 <Button>
                     <Button.Background>
@@ -125,6 +128,7 @@
                     <Button.Content>
                         M-
                     </Button.Content>
+                    <Button.BorderThickness>0</Button.BorderThickness>
                 </Button>
                 <Button>
                     <Button.Background>
@@ -139,11 +143,12 @@
                             </SolidColorBrush.Color>
                         </SolidColorBrush>
                     </Button.Background>
-                    <Button.Width>80</Button.Width>
+                    <Button.Width>75</Button.Width>
                     <Button.Height>30</Button.Height>
                     <Button.Content>
                         MS
                     </Button.Content>
+                    <Button.BorderThickness>0</Button.BorderThickness>
                 </Button>
             </WrapPanel>
         </Grid>
@@ -153,10 +158,11 @@
                 <UniformGrid.Columns>4</UniformGrid.Columns>
                
                 <Button>
+
                     <Button.Content>
                         %
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                     <!--<Button.Background>
                         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
 
@@ -175,132 +181,132 @@
                         <Button.Content>
                         \/
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                    
                 </Button>
                 <Button>
                     <Button.Content>
                         x^2
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                   
                 </Button>
                 <Button>
                     <Button.Content>
                         1/x
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                  
                 </Button>
                 <Button>
                     <Button.Content>
                         CE
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                   
                 </Button>
                 <Button>
                     <Button.Content>
                        C
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
              
                 </Button>
                 <Button>
                     <Button.Content>
                         DEL
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                                  </Button>
                 <Button>
                     <Button.Content>
                        /
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                  
                 </Button>
                 <Button>
                     <Button.Content>
                        7
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                
                 </Button>
                 <Button>
                     <Button.Content>
                         8
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                 
                 </Button>
                 <Button>
                     <Button.Content>
                         9
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
              
                 </Button>
                 <Button>
                      <Button.Content>
                         X
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                 
                 </Button>
                 <Button>
                     <Button.Content>
                        4
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
               
                 </Button>
                 <Button>
                     <Button.Content>
                         5
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                  
                 </Button>
                 <Button>
                     <Button.Content>
                         6
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
               
                 </Button>
                 <Button>
                     <Button.Content>
                         -
                     </Button.Content>
-                    <Button.FontSize>40</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                 
                 </Button>
                 <Button>
                     <Button.Content>
                         1
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                  
                 </Button>
                 <Button>
                     <Button.Content>
                         2
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                 
                 </Button>
                 <Button>
                     <Button.Content>
                         3
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                    
                 </Button>
                 <Button>
                     <Button.Content>
                         +
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                    
                 </Button>
                 <Button>
@@ -314,7 +320,7 @@
                     <Button.Content>
                         0
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                
                 </Button>
                 <Button>
@@ -328,7 +334,7 @@
                     <Button.Content>
                         =
                     </Button.Content>
-                    <Button.FontSize>35</Button.FontSize>
+                    <Button.FontSize>25</Button.FontSize>
                    
                 </Button>
             </UniformGrid>
