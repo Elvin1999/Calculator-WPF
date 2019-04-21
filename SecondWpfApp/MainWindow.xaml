@@ -93,32 +93,36 @@
                     </Button.Content>
                     <Button.BorderThickness>0</Button.BorderThickness>
                     <Button.Background>
-                        <SolidColorBrush
+               
+                            <SolidColorBrush
    >
-                            <SolidColorBrush.Color>
-                                <Color
-            A="200"
-            R="130"
-            G="255"
-            B="158" />
-                            </SolidColorBrush.Color>
-                        </SolidColorBrush>
+                                <SolidColorBrush.Color>
+                                    <Color
+            A="250"
+            R="139"
+            G="128"
+            B="249" />
+                                </SolidColorBrush.Color>
+                            </SolidColorBrush>
+                    
                     </Button.Background>
                 </Button>
                 <Button>
                     <Button.Background>
+
                         <SolidColorBrush
    >
                             <SolidColorBrush.Color>
                                 <Color
-            A="200"
-            R="130"
-            G="255"
-            B="158" />
+            A="250"
+            R="139"
+            G="128"
+            B="249" />
                             </SolidColorBrush.Color>
                         </SolidColorBrush>
+
                     </Button.Background>
-              
+
                     <Button.Content>
                         MR
                     </Button.Content>
@@ -126,18 +130,20 @@
                 </Button>
                 <Button>
                     <Button.Background>
+
                         <SolidColorBrush
    >
                             <SolidColorBrush.Color>
                                 <Color
-            A="200"
-            R="130"
-            G="255"
-            B="158" />
+            A="250"
+            R="139"
+            G="128"
+            B="249" />
                             </SolidColorBrush.Color>
                         </SolidColorBrush>
+
                     </Button.Background>
-   
+
                     <Button.Content>
                         M+
                     </Button.Content>
@@ -145,18 +151,20 @@
                 </Button>
                 <Button>
                     <Button.Background>
+
                         <SolidColorBrush
    >
                             <SolidColorBrush.Color>
                                 <Color
-            A="200"
-            R="130"
-            G="255"
-            B="158" />
+            A="250"
+            R="139"
+            G="128"
+            B="249" />
                             </SolidColorBrush.Color>
                         </SolidColorBrush>
+
                     </Button.Background>
-             
+
                     <Button.Content>
                         M-
                     </Button.Content>
@@ -164,18 +172,20 @@
                 </Button>
                 <Button>
                     <Button.Background>
+
                         <SolidColorBrush
    >
                             <SolidColorBrush.Color>
                                 <Color
-            A="200"
-            R="130"
-            G="255"
-            B="158" />
+            A="250"
+            R="139"
+            G="128"
+            B="249" />
                             </SolidColorBrush.Color>
                         </SolidColorBrush>
+
                     </Button.Background>
-             
+
                     <Button.Content>
                         MS
                     </Button.Content>
