@@ -25,6 +25,14 @@ namespace SecondWpfApp
             InitializeComponent();
         }
 
+        private void btn_Click_History(object sender, RoutedEventArgs e)
+        {
+            lblHistory.Content = "There is no yet history .";
+        }
 
+        private void Btn_Memory_Click(object sender, RoutedEventArgs e)
+        {
+            lblHistory.Content = "There is no yet memory .";
+        }
     }
 }
